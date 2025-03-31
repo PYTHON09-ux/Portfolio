@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pavan Patane | Web Developer</title>
+    <meta name="author" content="Pavan Patane" />
+    <meta name="description" content="Web developer portfolio showcasing MERN stack projects" />
+    <meta name="keywords" content="programming, web_development, MERN, portfolio, pavan patane" />
+    <link rel="stylesheet" href="../css/style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Header section -->
+    <header>
+        <nav>
+            <div class="nav-left">
+                <img src="/src/images/icons/logo-no-background.png" alt="logo-icon">
+                <div class="toggle-switch">
+                    <input type="checkbox" class="checkbox" id="checkbox">
+                    <label for="checkbox" class="checkbox-label">
+                        <i class="fa-solid fa-moon"></i>
+                        <i class="fa-solid fa-sun"></i>
+                        <span class="ball"></span>
+                    </label>
+                </div>
+                <!-- Hamburger menu will be injected here by JavaScript -->
+            </div>
+
+            <div class="nav-right">
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Skills">Skills</a></li>
+                    <li><a href="#Certifications">Certifications</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero section -->
+        <section class="hero section-padding" id="Home">
+            <div class="hero-left">
+                <h3><span class="highlight">Hi!</span> I'm Pavan Patane</h3>
+                <h1 class="typing-element"></h1>
+                <h5 class="typing-subtitle"></h5>
+
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/pavan-patane-0261aa354/" target="_blank" class="social-icon">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/PYTHON09-ux" target="_blank" class="social-icon">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="mailto:pavanpatane34@gmail.com" class="social-icon">
+                        <i class="fa fa-envelope"></i>
+                    </a> 
+                </div>
+
+                <button class="button hover-effect">
+                    <a href="/resume.pdf" download="Pavan_Patane_Resume.pdf">Download CV</a>
+                    <i class="fa-solid fa-download"></i>
+                </button>
+            </div>
+
+            <div class="hero-right">
+                <div class="profile-img-container">
+                    <img src="/src/images/icons/profile-img.jpg" alt="Pavan Patane">
+                </div>
+            </div>
+        </section>
+
+        <!-- About section -->
+        <section class="about-me section-padding" id="About">
+            <div class="about-img">
+                <img src="/src/images/icons/about-img.jpg" alt="about-image">
+            </div>
+
+            <div class="about-content">
+                <h2 class="section-title">About Me</h2>
+                <h5 class="section-subtitle">Converting Ideas Into Reality</h5>
+                <p class="indented-paragraph">I am a passionate full-stack web developer specializing in the MERN
+                    stack, dedicated to building scalable, efficient, and user-friendly applications. Currently, I am pursuing my Master's in
+                    Computer Applications (MCA), which allows me to deepen my understanding of complex software systems
+                    and emerging technologies.</p>
+                <p class="indented-paragraph">My journey in web development has been driven by a love for coding and
+                    problem-solving, focusing on bringing innovative ideas to life. I thrive in environments where I can
+                    collaborate, learn, and push the boundaries of what's possible in web development. With a strong
+                    foundation in both frontend and backend technologies, I aim to create seamless digital experiences.
+                    My goal is to continuously evolve as a developer and contribute to impactful projects that make a
+                    difference.</p>
+
+                <button class="button hover-effect " onclick="displayInfo()">Read More <i class="fa-solid fa-angle-down"></i></button>
+            </div>
+        </section>
+
+        <!-- Skills section -->
+        <section class="skills section-padding" id="Skills">
+            <h2 class="section-title">My Skills</h2>
+
+            <div class="skill-progress-bar">
+                <div class="skill">
+                    <h5>HTML/CSS <i class="fa-brands fa-html5"></i></h5>
+                    <div class="progress-container">
+                        <div class="progress-bar" data-width="90">
+                            <span class="progress-no">90%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <h5>JAVA <i class="fa-brands fa-java"></i></h5>
+                    <div class="progress-container">
+                        <div class="progress-bar" data-width="70">
+                            <span class="progress-no">70%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <h5>MERN <i class="fa-solid fa-code"></i></h5>
+                    <div class="progress-container">
+                        <div class="progress-bar" data-width="60">
+                            <span class="progress-no">60%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <h5>C++ <i class="fa-solid fa-code"></i></h5>
+                    <div class="progress-container">
+                        <div class="progress-bar" data-width="80">
+                            <span class="progress-no">80%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <h5>GIT <i class="fa-brands fa-square-github"></i></h5>
+                    <div class="progress-container">
+                        <div class="progress-bar" data-width="50">
+                            <span class="progress-no">50%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <h5>PYTHON <i class="fa-brands fa-python"></i></h5>
+                    <div class="progress-container">
+                        <div class="progress-bar" data-width="70">
+                            <span class="progress-no">70%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <h5>DSA <i class="fa-solid fa-code"></i></h5>
+                    <div class="progress-container">
+                        <div class="progress-bar" data-width="40">
+                            <span class="progress-no">40%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications section -->
+        <section class="certifications section-padding" id="Certifications">
+            <h2 class="section-title">My Certifications</h2>
+
+            <div class="my-certificate">
+                <div class="certificate">
+                    <h3>Full-Stack Web Development Certification</h3>
+                    <p class="indented-paragraph">
+                        This certification covers the skills required to build dynamic, responsive websites and web
+                        applications using both front-end and back-end technologies. It includes HTML, CSS, JavaScript,
+                        databases, and popular frameworks like React, Node.js, and Express, providing a comprehensive
+                        understanding of full-stack development.
+                    </p>
+                    <div class="certificate-img">
+                        <img src="/src/images/certificates/certificate-1.jpg" alt="Certificate Image">
+                    </div>
+
+                    <div id="hidden-img-1" class="popup">
+                        <div class="popup-content">
+                            <a href="#Certifications" class="close-btn"><i class="fa-solid fa-rectangle-xmark"></i></a>
+                            <img src="/src/images/certificates/certificate-1.jpg" alt="Full Certificate Image">
+                        </div>
+                    </div>
+
+                    <div>
+                        <a href="#hidden-img-1">
+                            <h5 class="hover-effect">View Certificate</h5>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="certificate">
+                    <h3>Data Structures and Algorithms Certification</h3>
+                    <p class="indented-paragraph">
+                        This certification focuses on core programming concepts like data structures (arrays, linked
+                        lists, trees, graphs) and algorithms (sorting, searching, dynamic programming). It equips
+                        developers with the skills to solve complex problems efficiently, crucial for writing optimized
+                        and scalable code.
+                    </p>
+                    <div class="certificate-img">
+                        <img src="/src/images/certificates/certificate-2.jpg" alt="Certificate Image">
+                    </div>
+
+                    <div id="hidden-img-2" class="popup">
+                        <div class="popup-content">
+                            <a href="#Certifications" class="close-btn"><i class="fa-solid fa-rectangle-xmark"></i></a>
+                            <img src="/src/images/certificates/certificate-2.jpg" alt="Full Certificate Image">
+                        </div>
+                    </div>
+
+                    <div>
+                        <a href="#hidden-img-2">
+                            <h5 class="hover-effect">View Certificate</h5>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="certificate">
+                    <h3>Cloud Computing with AWS Certification</h3>
+                    <p class="indented-paragraph">
+                        This certification provides expertise in cloud computing using Amazon Web Services (AWS). It
+                        covers cloud fundamentals, storage, database services, deployment, and scaling applications in a
+                        cloud environment, preparing developers for cloud-based solutions in real-world projects.
+                    </p>
+                    <div class="certificate-img">
+                        <img src="/src/images/certificates/certificate-2.jpg" alt="Certificate Image">
+                    </div>
+
+                    <div id="hidden-img-3" class="popup">
+                        <div class="popup-content">
+                            <a href="#Certifications" class="close-btn"><i class="fa-solid fa-rectangle-xmark"></i></a>
+                            <img src="/src/images/certificates/certificate-3.jpg" alt="Full Certificate Image">
+                        </div>
+                    </div>
+
+                    <div>
+                        <a href="#hidden-img-3">
+                            <h5 class="hover-effect">View Certificate</h5>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects section -->
+        <section class="my-projects section-padding" id="Projects">
+            <h2 class="section-title">Latest Projects</h2>
+            <div class="projects">
+                <div class="project">
+                    <img src="/src/images/projects/project-1.jpg" alt="project1 Image">
+                    <div class="hidden">
+                        <h3>AI-Powered Personal Health Assistant</h3>
+                        <p>An AI-based health assistant app that uses machine learning to analyze user health data,
+                            habits, and preferences. The app provides personalized wellness recommendations, tracks
+                            vital signs through wearable devices, and alerts users about potential health risks.
+                        </p>
+                        <a href="#" class="project-link"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <img src="/src/images/projects/project-2.jpg" alt="project2 Image">
+                    <div class="hidden">
+                        <h3>Blog Platform</h3>
+                        <p>A full-stack blogging platform where users can create, edit, and delete blog posts. Built
+                            with Node.js, Express, and MongoDB on the backend, and React for the frontend, it includes
+                            user registration and login functionality.</p>
+                        <a href="#" class="project-link"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <img src="/src/images/projects/project-3.jpg" alt="project3 Image">
+                    <div class="hidden">
+                        <h3>Quantum Computing Optimization</h3>
+                        <p>A cutting-edge software framework that uses quantum algorithms to solve complex optimization
+                            problems in logistics, finance, and machine learning. This project explores the potential of
+                            quantum computing to outperform classical systems in solving NP-hard problems.
+                        </p>
+                        <a href="#" class="project-link"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <img src="/src/images/projects/project-4.jpg" alt="project4 Image">
+                    <div class="hidden">
+                        <h3>Augmented Reality (AR) Shopping Experience</h3>
+                        <p>A shopping platform that leverages AR to provide users with an immersive, virtual
+                            try-before-you-buy experience. Customers can visualize products like clothing or furniture
+                            in their environment using AR glasses or smartphone cameras.</p>
+                        <a href="#" class="project-link"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <img src="/src/images/projects/project-5.jpg" alt="project5 Image">
+                    <div class="hidden">
+                        <h3>Blockchain-Based Voting System</h3>
+                        <p>A decentralized and secure voting platform using blockchain technology to ensure
+                            transparency, immutability, and anonymity in elections. Users can cast votes through a
+                            digital interface, with results verified by blockchain consensus mechanisms.</p>
+                        <a href="#" class="project-link"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <img src="/src/images/projects/project-6.jpg" alt="project6 Image">
+                    <div class="hidden">
+                        <h3>Fitness Tracker</h3>
+                        <p>A fitness tracking app built using the MERN stack, enabling users to log exercises, monitor
+                            progress, and set fitness goals. It includes a dashboard for viewing workout history and
+                            analyzing performance.</p>
+                        <a href="#" class="project-link"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact section -->
+        <section class="contact section-padding" id="Contact">
+            <h2 class="section-title">Contact Me</h2>
+
+            <form method="post" class="contact-form">
+                <div class="left-contact">
+                    <input type="text" placeholder="Name" required>
+                    <input type="email" placeholder="Email" autocomplete="off" required>
+                    <input type="tel" placeholder="Phone Number" autocomplete="off">
+                </div>
+
+                <div class="right-contact">
+                    <textarea name="message" id="text" placeholder="Enter Your Message" required></textarea>
+                    <button type="submit" class="button hover-effect">Send Message <i class="fa-solid fa-paper-plane"></i></button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-info">
+                <p>&copy; 2025 Pavan Patane. All rights reserved.</p>
+            </div>
+            <div class="footer-contact">
+                <a href="tel:9067960886" class="footer-icon"><i class="fa-solid fa-phone-volume"></i></a>
+                <a href="mailto:itispavan24@gmail.com" class="footer-icon"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script -->
+    <script src="../app.js"></script>
+</body>
+
+</html>
